@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Portfolio Website-Blantara Studio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/c192eb268d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll navbarDark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Blantara Studio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="bgimage" id="home">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+          <h2 class="hero_title">Freelance Developer</h2>
+          <p class="hero_desc">Creating minimalist and simplicity website</p>
+          <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+              <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-xs"></i></a>
+              <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-xs"></i></a>
+              <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-dribbble fa-xs"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <div class="container mt-4 pt-4">
+      <h1 class="text-center">About Me</h1>
+      <div class="text-center">
+        <img src="assets/ava1.png" class="imageAboutPage" alt="...">
+      </div>
+      <div class="row mt-4">
+        <p> Hi, welcome to Blantara Studio. Looking for web design or developer for your website ? You're in the right
+          place. Blantara Studio can help you or your company to have it. Blantara Studio is freelance developer that
+          started become developer since 2020. Although it's still young, I guarante that I will help you create your
+          website. Please enjoy this website and let me know what you need. Regards.</p>
+      </div>
+    </div>
+  </section>
+  <section id="services">
+    <div class="container">
+      <h1 class="text-center">Services</h1>
+      <div class="row">
+        <div class="col-lg-3 mt-4">
+          <div class="card servicesText">
+            <div class="card-body">
+              <i class="servicesIcon fas fa-palette fa-4x"></i>
+              <h4 class="card-title mt-3">UI / UX Designer</h4>
+              <p class="card-text mt-3">Provide an attractive appearance and comfortable browsing on your website
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mt-4">
+          <div class="card servicesText">
+            <div class="card-body">
+              <i class="servicesIcon fa-brands fa-html5 fa-4x"></i>
+              <h4 class="card-title mt-3">Front End Developer</h4>
+              <p class="card-text mt-3">Creating alignment, interactiveness and functionality for your website
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 mt-4">
+          <div class="card servicesText">
+            <div class="card-body">
+              <i class="servicesIcon fa-solid fa-file-code fa-4x"></i>
+              <h4 class="card-title mt-3">Back End Developer</h4>
+              <p class="card-text mt-3">Building data structures and system development and security for your website
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 mt-4">
+          <div class="card servicesText">
+            <div class="card-body">
+              <i class="servicesIcon fa-solid fa-layer-group fa-4x"></i>
+              <h4 class="card-title mt-3">Full Stack Developer</h4>
+              <p class="card-text mt-3">Combining ideas, concepts and designs into a website that you want
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="container mt-3 contactContent">
+      <h1 class="text-center">Contact Me</h1>
+      <div class="row mt-4">
+        <div class="col-lg-6">
+          <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+            <div style="text-decoration:none; overflow:hidden;max-width:100%;width:500px;height:500px;">
+              <div id="embedmap-display" style="height:100%; width:100%;max-width:100%;"><iframe
+                  style="height:100%;width:100%;border:0;" frameborder="0"
+                  src="https://www.google.com/maps/embed/v1/place?q=palembang&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+              </div><a class="codefor-google-map" href="https://www.embed-map.com"
+                id="get-mapdata">https://www.embed-map.com</a>
+              <style>
+                #embedmap-display img {
+                  max-height: none;
+                  max-width: none !important;
+                  background: none !important;
+                }
+              </style>
+            </div>
+            <a class="googlemaps-html" href="https://www.embed-map.com"
+              id="get-data-forembedmap">https://www.embed-map.com</a>
+            <style>
+              #embedmap-canvas img {
+                max-width: none !important;
+                background: none !important;
+                font-size: inherit;
+                font-weight: inherit;
+              }
+            </style>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <form>
+            <input type="text" class="form-control form-control mt-3" placeholder="Name">
+            <input type="email" class="form-control mt-3" placeholder="Email">
+            <input type="text" class="form-control mt-3" placeholder="Subject">
+            <div class="mb-3 mt-3">
+              <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+            </div>
+          </form>
+          <button type="button" class="btn btn-primary mt-3">Send</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="footer">
+    <div class="container-fluid">
+      <p> &copy; Made by Blantara Studio</p>
+    </div>
+  </footer>
+  <!-- load javascript after loading all html content -->
+  <script src="script/script.js"></script>
+</body>
+
+</html>
